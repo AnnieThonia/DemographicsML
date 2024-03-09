@@ -158,3 +158,33 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore IDE-specific files (e.g., Visual Studio Code)
+.idea/
+.vscode/
+
+# Ignore build artifacts
+/dist/
+/build/
+
+# Ignore environment-specific files
+.env
+
+# Ignore package manager directories
+/node_modules/
+/vendor/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
